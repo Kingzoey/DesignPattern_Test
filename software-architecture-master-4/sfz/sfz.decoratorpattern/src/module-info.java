@@ -1,4 +1,4 @@
-module sfz.DecoratorPattern {
+module sfz.decoratorpattern {
     requires wwz.basictools;
     exports decoratortry;
 }
