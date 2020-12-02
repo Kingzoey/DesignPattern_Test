@@ -1,0 +1,23 @@
+
+# Java
+target/
+.factorypath
+
+# IDEA
+
+.idea
+
+# vscode
+.vscode
+.settings
+.project
+.classpath
+
+ignore
+
+# macOS
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
