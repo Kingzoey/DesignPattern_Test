@@ -56,9 +56,9 @@ import java.util.Scanner;
  * @Modified By: 
  **/
 public class Main {
-    private final int patternNumber;
-    private final List<Runnable> patternsFunc;
-    private final List<String> patternName;
+    private final int patternNumber = 0;
+    private final List<Runnable> patternsFunc = null;
+    private final List<String> patternName = null;
 
     /**
      * @Author: 
