@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class DaoTest {
-    public static void Main(){
+    public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         label:
         while(true) {

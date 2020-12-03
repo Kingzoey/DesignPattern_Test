@@ -4,7 +4,7 @@ import modulepattern.PaperTicket;
 import tools.PrintTool;
 
 public class ModuleTest {
-    public static void Main() {
+    public static void main(String args[]) {
         PrintTool.print("The visitor buy ticket online:");
         GetTicket visitor = new OnlineTicket();
         visitor.enterPark();

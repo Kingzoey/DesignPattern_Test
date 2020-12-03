@@ -2,7 +2,7 @@ import chainofresponsibilitypattern.*;
 import tools.PrintTool;
 
 public class ChainOfReponsibilityTest {
-    public static void Main() {
+    public static void main(String args[]) {
         PrintTool.print("Scenario:You can ask the guides questions, and they will try to help you.if he can not solve your question, then he will let his colleague to help you.");
         // new some guides
         GuideMan tom=new UselessGuideMan("Tom");

@@ -6,7 +6,7 @@ import tools.PrintTool;
 import java.util.Scanner;
 
 public class BalkingTest {
-    public static void Main() {
+    public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
         PrintTool.print("Please enter a filename");
         String filename=scan.next();
