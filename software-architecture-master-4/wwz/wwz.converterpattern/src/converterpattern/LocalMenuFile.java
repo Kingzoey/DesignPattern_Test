@@ -28,7 +28,7 @@ public class LocalMenuFile {
      * @Date: 18:28 2020/11/28
      * @Modified By:
     **/
-    LocalMenuFile(){
+    public LocalMenuFile(){
         dishes=new ArrayList<>();
     }
     /**

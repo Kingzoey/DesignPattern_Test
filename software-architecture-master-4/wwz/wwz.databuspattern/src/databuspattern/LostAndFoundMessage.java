@@ -20,7 +20,7 @@ public class LostAndFoundMessage extends Message {
      * @Date: 15:54 2020/11/28
      * @Modified By:
      */
-    protected LostAndFoundMessage(String message) {
+    public LostAndFoundMessage(String message) {
         super(message);
     }
 

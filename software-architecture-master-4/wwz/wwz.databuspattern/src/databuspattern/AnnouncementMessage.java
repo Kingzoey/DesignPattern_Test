@@ -20,7 +20,7 @@ public class AnnouncementMessage extends Message {
      * @Date: 15:54 2020/11/28
      * @Modified By:
      */
-    protected AnnouncementMessage(String message) {
+    public AnnouncementMessage(String message) {
         super(message);
     }
 

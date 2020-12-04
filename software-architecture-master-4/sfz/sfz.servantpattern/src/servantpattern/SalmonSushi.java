@@ -1,30 +1,30 @@
-package serventpattern;
+package servantpattern;
 
 import tools.PrintTool;
 
 /**
  * @Author Shen Fangzhi
- * @Description: This is used to make tuna sushi.
- * @Date: Created in 17:12 2020/11/25
+ * @Description: This is used to make salmon sushi.
+ * @Date: Created in 17:10 2020/11/25
  * @Modified By:
  **/
-public class TunaSushi implements Sushi {
+public class SalmonSushi implements Sushi {
     /**
      * @Author: Shen Fangzhi
-     * @Description:代表制作金枪鱼寿司的服务，完成一次需要5秒
+     * @Description: 代表做三文鱼寿司的服务，需要3秒完成一次
      * @Param Type
      * param:
      * resume:
      * @Return Value
      * @return: void
      * @resume:
-     * @Date: 17:19 2020/11/25
+     * @Date: 17:18 2020/11/25
      * @Modified By:
      **/
     @Override
     public void makeSushi() {
-        PrintTool.print("Making tuna sushi...Take 5 seconds");
-        int times = 5;
+        PrintTool.print("Making salmon sushi...Take 3 seconds");
+        int times = 3;
         for (int i = 0; i < times; i++) {
             try {
                 Thread.sleep(1000);
@@ -32,6 +32,6 @@ public class TunaSushi implements Sushi {
             }
             System.out.println("..");
         }
-        PrintTool.print("Tuna sushi finished.Enjoy it!");
+        PrintTool.print("Salmon sushi finished.Enjoy it!");
     }
 }

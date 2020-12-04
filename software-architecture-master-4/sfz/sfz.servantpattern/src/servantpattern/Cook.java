@@ -1,4 +1,4 @@
-package serventpattern;
+package servantpattern;
 
 import tools.PrintTool;
 /**

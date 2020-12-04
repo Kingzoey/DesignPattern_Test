@@ -21,5 +21,4 @@ public class FluentInterFaceTest {
 
         PrintTool.print("it's really a huge krabby patty");
     }
-    }
 }

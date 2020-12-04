@@ -20,7 +20,7 @@ public class ChildLostMessage extends Message{
      * @Date: 15:54 2020/11/28
      * @Modified By:
      */
-    protected ChildLostMessage(String message) {
+    public ChildLostMessage(String message) {
         super(message);
     }
 

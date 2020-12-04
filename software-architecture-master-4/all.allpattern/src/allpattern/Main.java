@@ -1,53 +1,6 @@
 package allpattern;
 
-import abstractfactorypattern.AbstractFactoryPattern;
-import adapterpattern.AdapterPattern;
-import balkingpattern.BalkingPattern;
-import bridgepattern.BridgePattern;
-import builderpattern.BuilderPattern;
-import callbackpattern.CallbackPattern;
-import chainofresponsibilitypattern.ChainOfResponsibilityPattern;
-import commandpattern.CommandPattern;
-import compositeentitypattern.CompositeEntityPattern;
-import compositepattern.CompositePattern;
-import converterpattern.ConverterPattern;
-import dataaccessobjectpattern.DataAccessObjectPattern;
-import databuspattern.DataBusPattern;
-import decoratortry.DecoratorPattern;
-import delegationpattern.DelegationPattern;
-import doublecheckedlockingpattern.DoubleCheckedLockingPattern;
-import facadetry.FacadePattern;
-import factorypattern.FactoryPattern;
-import filterpattern.FilterPattern;
-import fluentinterfacepattern.FluentInterfacePattern;
-import flyweightpattern.FlyweightPattern;
-import gamelooppattern.GameLoopPattern;
-import interceptingfilterpattern.InterceptingFilterPattern;
-import interpreterpattern.InterpreterPattern;
-import iteratorpattern.IteratorPattern;
-import mediatorpattern.MediatorPattern;
-import mementopattern.MementoPattern;
-import modulepattern.ModulePattern;
-import monostatepattern.MonostatePattern;
-import multitonpattern.MultitonPattern;
-import mvcpattern.MVCPattern;
-import nullobjectpattern.NullObjectPattern;
-import observerattern.ObserverPattern;
-import prototypepattern.PrototypePattern;
-import proxytry.ProxyPattern;
-import serventpattern.ServantPattern;
-import singletonpattern.SingletonPattern;
-import statepattern.StatePattern;
-import strategypattern.StrategyPattern;
-import templatemethodpattern.TemplateMethodPattern;
-import tools.PrintTool;
-import transferobjectpattern.TransferObjectPattern;
-import typeobjectpattern.TypeObjectPattern;
-import visitorpattern.VisitorPattern;
-
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * @Author 
