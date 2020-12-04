@@ -71,7 +71,7 @@ public class Ticket {
     **/
 
     //ticket information serialization
-    String TicketInf(){
+    public String TicketInf(){
         String ticketInf="Owner Name:"+OwnerName+",Facility:"+SpecificEntertainmentFacilities.FacilityName()+",Price:"+Integer.toString(TicketPrice);
         return ticketInf;
     }
