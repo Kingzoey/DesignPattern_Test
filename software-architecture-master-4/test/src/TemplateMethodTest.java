@@ -3,28 +3,7 @@
 import templatemethodpattern.*;
 import tools.PrintTool;
 
-/**
- * @Author Wang Wenzheng
- * @Description: 模板方法的封装接口类
- * @Date: Created in 0:58 2020/11/28
- * @Modified By:
- **/
-public class TemplateMethodTest {
-    /**
-     * @Author: Wang Wenzheng
-     * @Description: 将模板方法封装到接口中，供Main调用
-     *
-     * @Param Type
-     * param:
-     * resume:
-     *
-     * @Return Value
-     * @return: void
-     * @resume:
-     *
-     * @Date: 1:01 2020/11/28
-     * @Modified By:
-     **/
+
     public static void main(String[] args) {
 
         PrintTool.print("here are some good shows in the carnival, and they are going to start!");
