@@ -10,12 +10,8 @@ public class ServantTest {
                 "Customers can submit specified kind of sushi order." + "\n" +
                 "The cook will use different orders as a parameter." + "\n" +
                 "Then the cook will use different service to complete sushi" + "\n");
-
         Cook chiefCook = new Cook();
-
-        //order1:
         chiefCook.cooking(new SalmonSushi());
-        //order2
         chiefCook.cooking(new TunaSushi());
     }
 }
