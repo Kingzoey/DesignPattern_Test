@@ -1,4 +1,5 @@
-import factorypattern.*;
+import abstractfactorypattern.Animal;
+import abstractfactorypattern.AnimalFactory;
 import tools.PrintTool;
 
 public class FactoryTest {

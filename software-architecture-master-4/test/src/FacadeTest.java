@@ -9,8 +9,6 @@ import java.io.PrintStream;
 
 public class FacadeTest {
 
-    private static PrintStream PrintTool;
-
     public static void main(String[] args) {
         PrintTool.print("Facade Pattern" + "\n" +
                 "Scenario Introduction:This is used for the display of videos." + "\n" +
@@ -24,3 +22,4 @@ public class FacadeTest {
         testDisplay.end();
     }
 }
+
