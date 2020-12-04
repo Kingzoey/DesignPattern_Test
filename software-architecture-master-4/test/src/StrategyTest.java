@@ -20,7 +20,7 @@ public class StrategyTest {
 
         int times = 3;
         for (int i = 0; i < times; i++) {
-            int date = (new StrategyPattern()).getDate();
+            int date = (new StrategyTest()).getDate();
 
             Strategy choice;
 

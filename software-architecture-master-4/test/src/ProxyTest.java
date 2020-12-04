@@ -17,4 +17,8 @@ public class ProxyTest {
         t2.print();
         t3.print();
     }
+
+    public static void main(String[] args) {
+        proxy();
+    }
 }

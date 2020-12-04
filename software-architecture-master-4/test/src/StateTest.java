@@ -1,4 +1,5 @@
 
+import statepattern.StatePattern;
 import statepattern.ui.Square;
 import statepattern.ui.UI;
 import tools.PrintTool;
@@ -9,7 +10,7 @@ import java.util.Scanner;
 public class StateTest {
 
     public static void work() {
-        StatePattern demo = new StatePattern();
+        StateTest demo = new StateTest();
         demo.add_scene();
         PrintTool.print("Please enter 0 to exit");
         Scanner scan = new Scanner(System.in);
@@ -31,7 +32,7 @@ public class StateTest {
     }
 
     public static void main(String[] args) {
-        StatePattern t = new StatePattern();
+        StateTest t = new StateTest();
         t.work();
     }
 }
