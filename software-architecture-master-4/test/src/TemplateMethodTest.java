@@ -4,6 +4,8 @@ import templatemethodpattern.*;
 import tools.PrintTool;
 
 
+public class TemplateMethodTest {
+
     public static void main(String[] args) {
 
         PrintTool.print("here are some good shows in the carnival, and they are going to start!");
