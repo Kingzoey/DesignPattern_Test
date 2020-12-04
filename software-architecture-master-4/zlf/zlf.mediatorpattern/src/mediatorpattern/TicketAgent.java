@@ -28,7 +28,7 @@ public class TicketAgent{
      * @Modified By: 
     **/
     
-    public TicketAgent(Tourist _Buyer,EntertainmentFacilities _SpecificEntertainmentFacilities){
+    TicketAgent(Tourist _Buyer,EntertainmentFacilities _SpecificEntertainmentFacilities){
         Buyer=_Buyer;
         SpecificEntertainmentFacilities=_SpecificEntertainmentFacilities;
     }
