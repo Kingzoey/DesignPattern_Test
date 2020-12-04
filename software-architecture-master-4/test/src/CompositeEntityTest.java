@@ -7,30 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * @Author ZhouLifan
- * @Description:
- * @Date: Created in 17:47 2020/11/24
- * @Modified By:
- **/
-public class CompositeEntityTest {
-    /***
-     * @Author: Zhou Lifan
-     * @Description:
-     *
-     * @Param Type
-     * param: args
-     * resume:
-     *
-     * @Return Value
-     * @return: void
-     * @resume:
-     *
-     * @Date:  2020/11/24
-     * @Modified By:
-     **/
 
-    //Interface
+public class CompositeEntityTest {
+
     public static void main(String[] args) {
 
 
