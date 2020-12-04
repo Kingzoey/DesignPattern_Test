@@ -9,7 +9,7 @@ public class GameLogic extends Thread{
     private double y=0;
     private double vy=0;
 
-    GameLogic(double _height) {
+    public GameLogic(double _height) {
         y=_height;
         initH=_height;
     }
