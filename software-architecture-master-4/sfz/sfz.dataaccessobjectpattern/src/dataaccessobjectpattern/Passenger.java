@@ -12,7 +12,7 @@ public class Passenger {
     private String name;
     private int passengerNo;
 
-    Passenger(String name, int passengerNo) {
+    public Passenger(String name, int passengerNo) {
         this.name = name;
         this.passengerNo = passengerNo;
     }
