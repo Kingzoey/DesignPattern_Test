@@ -1,3 +1,4 @@
+import filterpattern.FilterPattern;
 import filterpattern.criteria.*;
 import filterpattern.person.Person;
 import java.util.ArrayList;
