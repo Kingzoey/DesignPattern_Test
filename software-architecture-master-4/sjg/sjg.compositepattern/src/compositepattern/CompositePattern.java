@@ -34,14 +34,14 @@ public class CompositePattern {
       Souvenir b6 = new Name("goldfish");
       Souvenir b7 = new Name("artwares");
       a0.addSouvenir(a1);
-        a0.addSouvenir(a2);
-        a0.addSouvenir(b7);
-        a1.addSouvenir(b1);
-        a1.addSouvenir(b2);
-        a1.addSouvenir(b3);
-        a2.addSouvenir(b4);
-        a2.addSouvenir(b5);
-        a2.addSouvenir(b6);
+      a0.addSouvenir(a2);
+      a0.addSouvenir(b7);
+      a1.addSouvenir(b1);
+      a1.addSouvenir(b2);
+      a1.addSouvenir(b3);
+      a2.addSouvenir(b4);
+      a2.addSouvenir(b5);
+      a2.addSouvenir(b6);
      a0.display(" ");
     }
 
